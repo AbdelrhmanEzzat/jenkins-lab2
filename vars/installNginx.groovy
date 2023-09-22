@@ -1,4 +1,4 @@
-1def call() {
+def call() {
     pipeline {
         agent { label 'Worker1' }
         
