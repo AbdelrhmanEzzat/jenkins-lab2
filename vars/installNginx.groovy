@@ -1,6 +1,6 @@
-def call() {
+1def call() {
     pipeline {
-        agent { label 'AWS' }
+        agent { label 'Worker1' }
         
         stages {
             stage('Install Nginx') {
